@@ -43,13 +43,13 @@
 	<distributionManagement>
     <repository>
         <id>central</id>
-        <name>jenkins_artifact-releases</name>
-        <url>http://10.0.0.11:8082/artifactory/jenkins_artifact</url>
+        <name>61e955c0ab5c-releases</name>
+        <url>http://10.0.0.11:8081/artifactory/jenkins_artifact</url>
     </repository>
     <snapshotRepository>
         <id>snapshots</id>
-        <name>jenkins_artifact-snapshots</name>
-        <url>http://10.0.0.11:8082/artifactory/jenkins_artifact</url>
+        <name>61e955c0ab5c-snapshots</name>
+        <url>http://10.0.0.11:8081/artifactory/jenkins_artifact</url>
     </snapshotRepository>
 </distributionManagement>
 	<build>
