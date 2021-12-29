@@ -48,12 +48,10 @@
 	<distributionManagement>
 	    <repository>
 		<id>central</id>
-		<name>jcd01561083e9-releases</name>
-		<url>http://10.0.0.11:8082/artifactory/jenkins_artifact</url>
+		 <url>http://10.0.0.11:8082/artifactory/jenkins_artifact</url>
 	    </repository>
 	    <snapshotRepository>
 		<id>snapshots</id>
-		<name>cd01561083e9-snapshots</name>
 		<url>http://10.0.0.11:8082/artifactory/jenkins_artifact</url>
 	    </snapshotRepository>
 	</distributionManagement>
