@@ -130,6 +130,16 @@ under the License.
       <passphrase>optional; leave empty if not used.</passphrase>
     </server>
     -->
+      <server>
+		<id>central</id>
+		<username>sarpesh</username>
+		<password>adminM123</password>
+	</server>
+	<server>
+		<id>snapshots</id>
+		<username>sarpesh</username>
+		<password>adminM123</password>
+	</server>
   </servers>
 
   <!-- mirrors
@@ -244,6 +254,24 @@ under the License.
       </properties>
     </profile>
     -->
+   <profile>
+		<repositories>
+			<repository>
+				<id>central</id>
+				<snapshots>
+				<enabled>false</enabled>
+				</snapshots>
+				<name>libs-release</name>
+				<url>http://10.0.0.11:8082/artifactory/jenkins_artifact</url>
+			</repository>
+			<repository>
+				<id>snapshots</id>
+				<snapshots />
+				<name>libs-snapshot</name>
+				<url>http://10.0.0.11:8082/artifactory/jenkins_artifact</url>
+				</repository>
+				</repositories>
+			</profile>   
   </profiles>
 
   <!-- activeProfiles
