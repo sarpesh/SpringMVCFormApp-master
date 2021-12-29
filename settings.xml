@@ -258,12 +258,12 @@ under the License.
 		<repositories>
 			<repository>
 				<id>central</id>
-				<name>jenkins_artifact-releases</name>
+				<name>cd01561083e9-releases</name>
 				<url>http://10.0.0.11:8082/artifactory/jenkins_artifact</url>
 			</repository>
 			<repository>
 				<id>snapshots</id>
-				<name>jenkins_artifact-snapshots</name>
+				<name>cd01561083e9-snapshots</name>
 				<url>http://10.0.0.11:8082/artifactory/jenkins_artifact</url>
 				</repository>
 				</repositories>
