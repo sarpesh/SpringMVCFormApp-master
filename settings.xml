@@ -258,7 +258,7 @@ under the License.
 		<repositories>
 			<repository>
 				<id>central</id>
-				<name>jenkins_artifact-releases/name>
+				<name>jenkins_artifact-releases</name>
 				<url>http://10.0.0.11:8082/artifactory/jenkins_artifact</url>
 			</repository>
 			<repository>
